@@ -91,6 +91,7 @@ header {
   width: 506px; /* Fixed width for the container */
   overflow: hidden; /* Prevent overflow when image scales */
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .box img {
@@ -104,10 +105,14 @@ header {
 }
 .box-2 {
   margin-left: 243px;
-  border: 1px solid rgb(54, 54, 54);
+  border: 1px solid rgb(232, 232, 232);
   padding: 10px;
   width: 285px;
   margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: rgb(232, 232, 232);
+  border-radius: 10px;
+  
 }
 .h01 {
   margin-left: 235px;
@@ -123,10 +128,13 @@ header {
 /* section 3 */
 
 .box5 {
-  background-color: rgb(255, 251, 247);
+  background-color: rgb(232, 232, 232);
   height: 80vh;
   width: 100vw;
   position: relative;
+  cursor: pointer;
+  box-shadow: rgb(232, 232, 232);
+  border-radius: 10px;
 }
 
 .zomato {
@@ -234,10 +242,20 @@ header {
 }
 .box-3 {
   margin-left: 300px;
-  border: 1px solid rgb(54, 54, 54);
+  border: 1px solid rgb(232, 232, 232);
   padding-left: 30px;
   width: 985px;
   margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: rgb(232, 232, 232);
+  border-radius: 10px;
+  position: relative;
+}
+.downarrow{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
 }
 
 /* section 5 -- footer */
@@ -346,6 +364,7 @@ footer {
 #ft-img {
   width: 300px;
   margin-right: 10px;
+  cursor: pointer;
 }
 #line {
   border-bottom: 5px solid grey;
